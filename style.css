@@ -1,0 +1,663 @@
+body {
+    margin: 0;
+    background-color: #F5F5EC;
+}
+
+hr {
+    background-color: #68B3E0;
+    height: 2px;
+    width: 50%;
+    align-items: center;
+    margin: 100px auto;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+
+
+.icon {
+    width: 5%;
+}
+
+.logo > a > img {
+    width: 100%;
+}
+
+.logo  {
+    width: 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+nav > a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    
+}
+
+.pc {
+   text-align: right;
+   margin: auto 0;
+}
+
+
+
+
+.mainpic {
+    margin: 0 auto;
+}
+
+
+.mainpic > img {
+    width: 100%;
+}
+
+
+h2 {
+    color: black;
+    font-size: 45px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    width: 20%;
+    margin: 50px 20px 0px 20px;
+}
+
+.content > img {
+    width: 100%;
+}
+
+.whatwedo {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.whatwedo > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whatwedo-p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+.sprout-project {
+   width: 100%;
+}
+
+.project {
+    display: flex;
+}
+
+
+
+
+.project-pic {
+    align-self: center;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+
+.project-pic > img {
+   width: 70%;
+}
+
+
+.project-box {
+    text-align: justify;
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.project-p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.project-2 {
+    color: black;
+    font-size: 2em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+
+
+.kindnesscoffee {
+    width: 100%;
+}
+
+.kind {
+    display: flex;
+}
+
+
+
+.kindness-pic > img {
+    width: 70%;
+}
+
+.kindness-pic {
+    align-self: center;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.kindness-box {
+    text-align: justify;
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.kindness-p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.kindness-2 {
+    color: black;
+    font-size: 2em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+
+h3 {
+    color: black;
+    font-size: 3em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.aboutus {
+    width: 100%;
+}
+
+.aboutus > div {
+    display: flex;
+}
+
+
+
+.aboutus-left {
+    padding-top: 50px;
+    padding-right: 20px;
+    text-align: right;
+   
+}
+
+.aboutus-left > a > img {
+    width: 70%;
+}
+
+
+.aboutus-right {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.aboutus-right > a > img {
+    width: 70%;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.shop {
+    width: 100%;
+}
+
+.shop > div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.shop1 {
+    width: 50%;
+    padding: 50px 20px 0px 20px
+}
+
+
+h5 {
+    color: black;
+    font-size: 1.7em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shop1 > p {
+    text-align: center;
+}
+
+.shop-center > p {
+    text-align: center;
+}
+
+.shop-p {
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+
+.photos {
+    width: 100%;
+}
+
+.photos > div {
+    display: flex;
+    justify-content: center;
+}
+ 
+.photo {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.photo-center {
+    width: 20%;
+    margin: 50px 50px 0px 50px;
+}
+
+.pic {
+    width: 100%;
+}
+
+.contact {
+    margin: 50px auto;
+}
+
+.contact > form > div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.form {
+    align-self: center;
+    width: 240px;
+}
+
+.textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+}
+
+.textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+}
+
+.label {
+    color: black;
+    font-size: 24px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.footer > img {
+    width: 20%;
+}
+
+.footer-icon {
+    width: 30px;
+}
+
+footer > div {
+    text-align: center;
+}
+
+.footer-link > a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold
+}
+
+.footer-link {
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 1.3em;
+    width: 5em;
+    height: 3em;
+}
+@media screen and (min-width: 520px) {
+.humbergermenu {
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 520px) {
+
+    
+    main {
+     margin: 0 auto;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+
+    .whatwedo > div {
+        display: block;
+    }
+
+    .content {
+        width: 60%;
+        margin: 0 auto;
+    
+    }
+
+    
+    .project {
+        display: block;
+        
+    }
+
+    
+
+   .project-pic {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+   }
+
+   .project-box {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+   }
+
+   
+    .kind {
+        display: block;
+        width: 100%;
+    }
+
+    .kindness-pic {
+       width: 100%;
+       padding: 0 ;
+       text-align: center;
+    }
+
+    .kindness-box {
+       width: 100%;
+       text-align: center;
+       padding: 0;
+    }
+
+    .aboutus > div {
+        display: block;
+    }
+
+    .aboutus-box {
+        width: 100%;
+    }
+
+    .aboutus-left {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .aboutus-right {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+
+    .shop > div {
+        display: block;
+        width: 100%;
+
+    }
+
+
+    .shop1 {
+        width: 80%;
+        margin: 0 auto;
+          
+    }
+
+     
+    .contact {
+        margin: 20px auto;
+    }
+    
+    .contact > form > div {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+    
+    .form {
+        align-self: center;
+        width: 120px;
+    }
+    
+    .textbox {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-width: 1px;
+        border-bottom-color: #707070;
+        border-bottom-style: solid;
+        background-color: #fafafa;
+        width: 200px;
+        height: 24px;
+    }
+    
+    .textarea {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-width: 1px;
+        border-bottom-color: #707070;
+        border-bottom-style: solid;
+        background-color: #fafafa;
+        width: 200px;
+        height: 100px;
+    }
+    
+    .label {
+        color: black;
+        font-size: 24px;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    .footer > img {
+        width: 20%;
+    }
+    
+    .footer-icon {
+        width: 30px;
+    }
+    
+    footer > div {
+        text-align: center;
+    }
+    
+    .footer-link > a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: bold
+    }
+    
+    .footer-link {
+        margin-bottom: 30px;
+    }
+    
+    input {
+        font-size: 1em;
+        width: 3em;
+        height: 2em;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: #68B3E0;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    #menu-btn-check {
+        display: none;
+    }
+
+    .menu-content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        z-index: 80;
+        background-color: #3584bb;
+        transition: all 0.5s;
+    }
+    .menu-content ul {
+        padding: 70px 10px 0;
+    }
+    .menu-content ul li {
+        border-bottom: solid 1px #ffffff;
+        list-style: none;
+    }
+    .menu-content ul li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        box-sizing: border-box;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 9px 15px 10px 0;
+        position: relative;
+    }
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+
+    #menu-btn-check:checked ~ .menu-content {
+        left: 0;
+    }
+    
+}
