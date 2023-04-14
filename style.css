@@ -14,7 +14,7 @@ hr {
 p {
     color: black;
     font-size: 18px;
-    font-family: 'Source Serif Pro', serif;
+    font-family:  "sofia-pro","sans-serif";
     font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ nav > a {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     
 }
@@ -69,8 +69,8 @@ nav > a {
 
 h2 {
     color: black;
-    font-size: 45px;
-    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     text-align: center;
 }
@@ -96,9 +96,7 @@ h2 {
 
 .whatwedo-p {
     color: black;
-    font-size: 1.5em;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: bold;
+   font-family: "sofia-pro","sans-serif";
 }
 
 .sprout-project {
@@ -136,15 +134,15 @@ h2 {
 .project-p {
     color: black;
     font-size: 1.5em;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     line-height: 1.5em;
 }
 
 .project-2 {
     color: black;
-    font-size: 2em;
-    font-family: 'Source Serif Pro', serif;
+    font-size: 1.8em;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
 }
 
@@ -182,23 +180,23 @@ h2 {
 .kindness-p {
     color: black;
     font-size: 1.5em;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     line-height: 1.5em;
 }
 
 .kindness-2 {
     color: black;
-    font-size: 2em;
-    font-family: 'Source Serif Pro', serif;
+    font-size: 1.8em;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
 }
 
 
 h3 {
     color: black;
-    font-size: 3em;
-    font-family: 'Source Serif Pro', serif;
+    font-size: 2.5em;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     text-align: center;
     margin-top: 100px;
@@ -261,7 +259,7 @@ img {
 h5 {
     color: black;
     font-size: 1.7em;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     text-align: center;
 }
@@ -276,8 +274,8 @@ h5 {
 
 .shop-p {
     color: black;
-    font-size: 1.3em;
-    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2em;
+   font-family: "sofia-pro","sans-serif";
     
 }
 
@@ -348,7 +346,7 @@ h5 {
 .label {
     color: black;
     font-size: 24px;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold;
     text-align: center;
 }
@@ -371,7 +369,7 @@ footer > div {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-family: 'Source Serif Pro', serif;
+   font-family: "sofia-pro","sans-serif";
     font-weight: bold
 }
 
@@ -530,7 +528,7 @@ input {
     .label {
         color: black;
         font-size: 24px;
-        font-family: 'Source Serif Pro', serif;
+       font-family: "sofia-pro","sans-serif";
         font-weight: bold;
         text-align: center;
     }
@@ -553,12 +551,13 @@ input {
         text-decoration: none;
         color: black;
         font-size: 18px;
-        font-family: 'Source Serif Pro', serif;
+       font-family: "sofia-pro","sans-serif";
         font-weight: bold
+        
     }
     
     .footer-link {
-        margin-bottom: 30px;
+        display: none;
     }
     
     input {
@@ -659,5 +658,54 @@ input {
     #menu-btn-check:checked ~ .menu-content {
         left: 0;
     }
+
+    h2 {
+        font-size: 2em;
+    }
     
+    .project-box > .project-p {
+        padding: 0 20px;
+    }
+
+    .project-p {
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .project-2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .kindness-box > .kindness-p {
+        padding: 0 20px;
+    }
+
+    .kindness-p {
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .kindness-2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    .shop-p {
+        font-size: 1em;
+    }
+
+    .label {
+        font-size: 1em;
+    }
 }
